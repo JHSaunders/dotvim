@@ -1,9 +1,19 @@
 filetype on
 
+" Integrate with system clipboard
 set clipboard=unnamedplus
+
+" Remove menu bar
+set guioptions-=m
+
+" Remove toolbar
+set guioptions-=T
 
 colors wombat
 
+set nu
+
+set autoindent
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType c setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType cpp setlocal shiftwidth=2 tabstop=2 expandtab
