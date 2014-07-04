@@ -34,3 +34,5 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType js setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType css setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType scss setlocal shiftwidth=2 tabstop=2 expandtab
+
+command Bash ConqueTerm bash
